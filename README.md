@@ -113,3 +113,21 @@ Securing backend APIs is essential to protect data, ensure system integrity, and
     **What it is:** Ensures that all communication with the API is encrypted.\
     **How it's implemented:** Enforced via hosting platform settings or middleware to redirect HTTP traffic to HTTPS.\
     **Why it’s important:** Encrypts data in transit, especially sensitive information like passwords or payment details.\
+
+## CI/CD Pipeline
+What is CI/CD?
+CI/CD (Continuous Integration and Continuous Deployment/Delivery) is a set of practices that automate the process of building, testing, and deploying code. It ensures that new code changes are automatically integrated, tested, and pushed to production or staging environments in a consistent and efficient manner.
+
+Why CI/CD is Important
+✅ Faster Development: Automates repetitive tasks like testing and deployment, allowing developers to focus on writing code.
+🧪 Improved Code Quality: Automated tests run on every commit to catch bugs early.
+🔁 Consistency: Ensures all code is deployed in a predictable and repeatable way.
+💡 Early Feedback: Developers are alerted to issues as soon as code is pushed.
+🔒 Reduced Risk: Automated workflows reduce the chance of human error during deployment.
+
+### Tools Used in CI/CD Pipeline
+GitHub Actions: For automating workflows such as testing, building, and deployment on every push or pull request.
+Docker: Containerizes the application for consistent deployment across different environments.
+Docker Hub or GitHub Container Registry: For storing and versioning Docker images.
+Heroku / Render / AWS / Azure: For deploying the app to a cloud platform.
+pytest / unittest (Python) or Jest / Mocha (JavaScript): For automated testing.
