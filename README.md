@@ -93,21 +93,21 @@
 ## API Security
 Securing backend APIs is essential to protect data, ensure system integrity, and build user trust. Below are the key security measures implemented in this project:\
 
-1. Authentication
+1. Authentication\
 **What it is:** Authentication ensures that only registered users can access protected endpoints.
 
 **How it's implemented:** Using Django’s built-in authentication system or JSON Web Tokens (JWT) for stateless sessions.
 
 **Why it’s important:** Prevents unauthorized access to sensitive features such as product management or order processing.
 
-2. Authorization
+2. Authorization\
 **What it is:** Authorization verifies what an authenticated user is allowed to do.
 
 **How it's implemented:** Role-based access control (RBAC), allowing only certain users (e.g., admins) to perform operations like creating or deleting products.
 
 **Why it’s important:** Protects the system from abuse and enforces data integrity by restricting sensitive actions to authorized users only.
 
-3. Rate Limiting
+3. Rate Limiting\
 **What it is:** Limits the number of requests a user or IP can make in a given time frame.
 
 **How it's implemented:** Integrated using tools like Django Ratelimit or middleware to throttle excessive API usage.
