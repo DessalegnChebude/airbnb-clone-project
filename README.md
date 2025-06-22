@@ -116,14 +116,14 @@ Securing backend APIs is essential to protect data, ensure system integrity, and
 
 ## CI/CD Pipeline
 What is CI/CD?
-CI/CD (Continuous Integration and Continuous Deployment/Delivery) is a set of practices that automate the process of building, testing, and deploying code. It ensures that new code changes are automatically integrated, tested, and pushed to production or staging environments in a consistent and efficient manner.
+CI/CD (Continuous Integration and Continuous Deployment/Delivery) is a set of practices that automate the process of building, testing, and deploying code. It ensures that new code changes are automatically integrated, tested, and pushed to production or staging environments in a consistent and efficient manner.\
 
 Why CI/CD is Important\
-✅ Faster Development: Automates repetitive tasks like testing and deployment, allowing developers to focus on writing code.\
-🧪 Improved Code Quality: Automated tests run on every commit to catch bugs early.\
-🔁 Consistency: Ensures all code is deployed in a predictable and repeatable way.\
-💡 Early Feedback: Developers are alerted to issues as soon as code is pushed.\
-🔒 Reduced Risk: Automated workflows reduce the chance of human error during deployment.\
+    ✅ Faster Development: Automates repetitive tasks like testing and deployment, allowing developers to focus on writing code.\
+    🧪 Improved Code Quality: Automated tests run on every commit to catch bugs early.\
+    🔁 Consistency: Ensures all code is deployed in a predictable and repeatable way.\
+    💡 Early Feedback: Developers are alerted to issues as soon as code is pushed.\
+    🔒 Reduced Risk: Automated workflows reduce the chance of human error during deployment.\
 
 ### Tools Used in CI/CD Pipeline
 **GitHub Actions:** For automating workflows such as testing, building, and deployment on every push or pull request.\
