@@ -115,15 +115,15 @@ How it's implemented: Integrated using tools like Django Ratelimit or middleware
 Why it’s important: Helps mitigate denial-of-service (DoS) attacks and prevents abuse of the API endpoints.
 
 4. Input Validation & Sanitization
-What it is: Ensures that incoming data is safe and formatted correctly.
+**What it is:** Ensures that incoming data is safe and formatted correctly.
 
-How it's implemented: Using DRF serializers and custom validators to prevent SQL injection, XSS, and other injection attacks.
+**How it's implemented:** Using DRF serializers and custom validators to prevent SQL injection, XSS, and other injection attacks.
 
-Why it’s important: Protects the application from malicious input and maintains data consistency.
+**Why it’s important:** Protects the application from malicious input and maintains data consistency.
 
 5. HTTPS Enforcement
-What it is: Ensures that all communication with the API is encrypted.
+    **What it is:** Ensures that all communication with the API is encrypted.
 
-How it's implemented: Enforced via hosting platform settings or middleware to redirect HTTP traffic to HTTPS.
+    **How it's implemented:** Enforced via hosting platform settings or middleware to redirect HTTP traffic to HTTPS.
 
-Why it’s important: Encrypts data in transit, especially sensitive information like passwords or payment details.
+    **Why it’s important:** Encrypts data in transit, especially sensitive information like passwords or payment details.
