@@ -36,36 +36,31 @@
 8. **CI/CD Pipelines:** Automated pipelines for testing and deploying code changes.\
 ## Database Design Overview
 #### The database design schema will have the following entities with their respective attributes
-**Users:** a user can have the following attributes\
--
+1. Users: a user can have the following attributes\
     **id:** a user can have unique ID\
     **name:** user can have a name.\
     **email**: user can have email adress.\
     **telephone:** a user can have telephone number\
 
-**properties:** a property can have the following attribut.\
--
+2. properties: a property can have the following attribut.\
     **id:** a Property can have unique ID\
     **name:** Property can have a name.\
     **price**: Property can have a price tag.\
     **measure:** a Property can have a measure in number\
 
-**booking:** this booking entity will have the following atribute\
--
+3. booking: this booking entity will have the following atribute\
     **id:** a booking can have unique ID\
     **gust_name:** booking can have a gust name.\
     **checkin_time**: booking can have check_in time .\
     **check_out_time:** a booking can have checkout time\
 
-**reviews**: the review entity will have the following attribute\
--
+4. reviews: the review entity will have the following attribute\
     **id:** a review can have unique ID\
     **user:** review can have a a user who gives the review.\
     **description**: review can have description .\
     **date:** a review can have date time\
 
-**payment:** the payment entity will have the following attribute\
--
+5. payment: the payment entity will have the following attribute\
     **transaction_id:** a payment can have unique transaction_id\
     **amount:** payment can have amount to be paid.\
     **description**: payment can have payment description .\
@@ -73,24 +68,24 @@
 
  ## Features Overview
 1. API Documentation
-    OpenAPI Standard: The backend APIs are documented using the OpenAPI standard to ensure clarity and ease of integration.\
-    Django REST Framework: Provides a comprehensive RESTful API for handling CRUD operations on user and property data.\
-    GraphQL: Offers a flexible and efficient query mechanism for interacting with the backend.\
+    **OpenAPI Standard:** The backend APIs are documented using the OpenAPI standard to ensure clarity and ease of integration.\
+    **Django REST Framework:** Provides a comprehensive RESTful API for handling CRUD operations on user and property data.\
+    **GraphQL:** Offers a flexible and efficient query mechanism for interacting with the backend.\
 2. User Authentication\
-    Endpoints: /users/, /users/{user_id}/\
-    Features: Register new users, authenticate, and manage user profiles.\
+    **Endpoints:** /users/, /users/{user_id}/\
+    **Features:** Register new users, authenticate, and manage user profiles.\
 3. Property Management\
-    Endpoints: /properties/, /properties/{property_id}/\
-    Features: Create, update, retrieve, and delete property listings.\
-4. Booking System
-    Endpoints: /bookings/, /bookings/{booking_id}/\
-    Features: Make, update, and manage bookings, including check-in and check-out details.\
-5. Payment Processing
-    Endpoints: /payments/\
-    Features: Handle payment transactions related to bookings.\
-6. Review System
-    Endpoints: /reviews/, /reviews/{review_id}/\
-    Features: Post and manage reviews for properties.\
-7. Database Optimizations
-    Indexing: Implement indexes for fast retrieval of frequently accessed data.\
-    Caching: Use caching strategies to reduce database load and improve performance.\
+    **Endpoints:** /properties/, /properties/{property_id}/\
+    **Features:** Create, update, retrieve, and delete property listings.\
+4. Booking System\
+    **Endpoints:** /bookings/, /bookings/{booking_id}/\
+    **Features:** Make, update, and manage bookings, including check-in and check-out details.\
+5. Payment Processing\
+    **Endpoints:** /payments/\
+    **Features:** Handle payment transactions related to bookings.\
+6. Review System\
+    **Endpoints:** /reviews/, /reviews/{review_id}/\
+    **Features:** Post and manage reviews for properties.\
+7. Database Optimizations\
+    **Indexing:** Implement indexes for fast retrieval of frequently accessed data.\
+    **Caching:** Use caching strategies to reduce database load and improve performance.\
