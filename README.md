@@ -71,7 +71,7 @@
     **description**: payment can have payment description .\
     **date:** a payment can have date time\
 
- Features Overview
+ ## Features Overview
 1. API Documentation
     OpenAPI Standard: The backend APIs are documented using the OpenAPI standard to ensure clarity and ease of integration.
     Django REST Framework: Provides a comprehensive RESTful API for handling CRUD operations on user and property data.
