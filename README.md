@@ -33,4 +33,32 @@
 5. **Celery:** For handling asynchronous tasks such as sending notifications or processing payments.\
 6. **Redis:** Used for caching and session management.\
 7. **Docker:** Containerization tool for consistent development and deployment environments.\
-8. **CI/CD Pipelines:** Automated pipelines for testing and deploying code changes.
+8. **CI/CD Pipelines:** Automated pipelines for testing and deploying code changes.\
+## Database Design Overview
+#### The database design schema will have the following entities with their respective attributes
+**Users:** a user can have the following attributes\
+    **id:** a user can have unique ID\
+    **name:** user can have a name.\
+    **email**: user can have email adress.\
+    **telephone:** a user can have telephone number\
+
+**properties:** a property can have the following attribut.\
+    **id:** a Property can have unique ID\
+    **name:** Property can have a name.\
+    **price**: Property can have a price tag.\
+    **measure:** a Property can have a measure in number\
+**booking:** this booking entity will have the following atribute\
+    **id:** a booking can have unique ID\
+    **gust_name:** booking can have a gust name.\
+    **checkin_time**: booking can have check_in time .\
+    **check_out_time:** a booking can have checkout time\
+**reviews**: the review entity will have the following attribute\
+    **id:** a review can have unique ID\
+    **user:** review can have a a user who gives the review.\
+    **description**: review can have description .\
+    **date:** a review can have date time\
+**payment:** the payment entity will have the following attribute\
+    **transaction_id:** a payment can have unique transaction_id\
+    **amount:** payment can have amount to be paid.\
+    **description**: payment can have payment description .\
+    **date:** a payment can have date time\
